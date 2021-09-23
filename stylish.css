@@ -1,0 +1,681 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("webfonts/bebas/fonts/BebasNeue-Regular.otf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-display: block;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("webfonts/Monsterate/Montserrat-Regular.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-display: block;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "alfa";
+    src: url("webfonts/bebas/fonts/AlfaSlabOne-Regular.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-display: block;
+    font-weight: normal;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+     
+}
+.navbar-expand-lg .navbar-nav{
+    margin-right: 24px;
+}
+.adress{
+        margin-right: 24px;
+        margin-top: 18px;
+}
+.navbar-light button:focus{
+    box-shadow: none;
+}
+.adress p{
+        margin: 5px 0 0px 8px;
+}
+.banner{
+	background-image: url(images/Rectangle.png);
+
+}
+.left-banner img{
+	    width: 86%;
+    margin-top: 24px;
+}
+
+
+@media screen and (max-width: 991px){
+    .adress{
+        display: none;
+
+    }
+    .fooooor  img{
+            
+    }
+}
+@media screen and (max-width: 991px){
+    .Burger p{
+        margin-left: 25px;
+    }
+    .Burger h1{
+        margin-left: 25px;
+    }
+    .Burger h2{
+        margin-left: 25px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 412px){
+ .for-like .navbar-brand {
+        width: 76%;
+    }
+
+}
+
+
+.adress img{
+    margin-right: 8px;
+}
+.right-banner img{
+	float: left;
+	margin-top: 35px;
+	margin-left: 53%;
+
+}
+.right-banner p{
+	margin-top: 40px;
+    margin-left: 55px;
+}
+.right-banner ul li a{
+	color: #2F2F2F;
+    font-size: 19px;
+    padding-left: 32px;
+    padding-right: 0px;
+    text-align: left;
+}
+.right-banner ul li{
+	list-style: none;
+
+}
+.Burger p{
+	    font-size: 19px;
+    border: 1px dashed;
+    padding-left: 13px;
+    /* padding-top: 5px; */
+    display: inline-block;
+    padding: 7px;
+    /* padding-bottom: 5px; */
+    background: #E19836;
+}
+
+.Burger h1{
+	font-family: Bebas Neue;
+	font-size: 131px;
+	color: #3D2514;
+	font-weight: 900;
+	margin-top: 36px;
+}
+
+.Burger h2{
+	font-family: alfa;
+    font-size: 51px;
+    color: #3D2514;
+}
+
+.burgur-img img{
+	width: 85%;
+	margin-bottom: 37px;
+}
+.images .left-img img{
+	width: 100%;
+}
+.right-img img{
+	width: 100%;
+}
+.for-more{
+    margin-top: 37px;
+}
+
+
+.tasty h4{
+	font-family: Bebas Neue;
+    font-size: 23px;
+    color: #3D2514;
+    font-weight: 500;
+    margin-top: 36px;
+    background: #FFC045;
+        padding: 5px 29px;
+    display: inline-block;
+}
+
+.tasty h2{
+	font-family:alfa;
+	font-size: 47px;
+    color: #3D2514;
+    margin-top: 16px;
+}
+.tasty p{
+	font-family:Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular;
+	font-size: 17px;
+	color: #3D2514;
+	font-weight: 500;
+	margin-top: 16px;
+}
+.enjoy-meal img{
+	width: 100%;
+}
+.enjoy-meals img{
+	width: 80%;
+}
+.enjoy-meals h3{
+	font-family:Bebas Neue;
+	font-size: 26px;
+    color: #3D2514;
+    font-weight: 500;
+    margin-top: 12px;
+    word-spacing: 7px;
+}
+.enjoy-meals p{
+	font-family:Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular;
+	    font-size: 18px;
+    color: #3D2514;
+    font-weight: 00;
+    margin-top: 12px;
+}
+.enjoy-meals .btn{
+	background-color: rgb(191, 34, 34);
+    color: white;
+    font-weight: 700;
+    padding: 6px 18px;
+    border-radius: 0px;
+        margin-bottom: 20px;
+}
+.enjoy-meal h3{
+		font-family:Bebas Neue;
+	font-size: 26px;
+    color: #3D2514;
+    font-weight: 500;
+    margin-top: 12px;
+    word-spacing: 7px;
+}
+.enjoy-meal p{
+		font-family:Montserrat-Regular;
+	    font-size: 18px;
+    color: #3D2514;
+    font-weight: 00;
+    margin-top: 12px;
+}
+.enjoy-meal .btn{
+	background-color: rgb(191, 34, 34);
+    color: white;
+    font-weight: 700;
+    padding: 6px 18px;
+    border-radius: 0px;
+        margin-bottom: 20px;
+}
+.for-shadow{
+	box-shadow: 23px 23px 27px -30px rgba(0,0,0,0.75);
+-webkit-box-shadow: 23px 23px 27px -30px rgba(0,0,0,0.75);
+-moz-box-shadow: 23px 23px 27px -30px rgba(0,0,0,0.75);
+}
+.image-text h5{
+	font-family:Bebas Neue;
+    font-size: 25px;
+    color: #3D2514;
+    font-weight: 900;
+    margin-top: 12px;
+}
+
+.image-text h3{
+	font-family: alfa;
+    font-size: 41px;
+    color: #3D2514;;
+	color: #3D2514;
+	    font-size: 43px;
+}
+
+.image-text p{
+    font-family:Montserrat-Regular;
+}
+
+.image-text img{
+	width: 100%;
+}
+
+.reservation-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.table-booking p{
+	font-family: Bebus Neue;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.table-booking h1{
+	font-family: alfa;
+    font-size: 31px;
+    color: #3D2514;
+    word-spacing: 6px;
+}
+.amount .first{
+	width: 312px;
+    height: 36px;
+            padding: 5px 0px 5px 12px;
+   border: 2px solid lightgrey;
+    /* display: flex; */
+    margin: 0 auto;
+
+}
+.amount input{
+    font-size: 15px;
+    font-family: 'Bebas Neue';
+    border-radius: 4px;
+    height: 48px;
+}
+.amount .second{
+	width: 312px;
+    height: 36px;
+    border: 2px solid lightgrey;
+    /* display: flex; */
+    /*margin-left: 41%;*/
+        /*padding: 4px 0px 0px 12px;*/
+            padding: 5px 0px 5px 12px;
+        margin: 0 auto;
+    margin-top: 23px;
+    /*margin: 0 auto;*/
+}
+
+.amount .third{
+	width: 312px;
+    height: 36px;
+    border: 2px solid lightgrey;
+    /* display: flex; */
+    margin: 0 auto;
+    /*margin-left: 41%;*/
+        /*padding: 4px 0px 0px 12px;*/
+            padding: 5px 0px 5px 12px;
+        margin-top: 23px;
+}
+
+.amount .forth{
+	width: 312px;
+    height: 36px;
+    border: 2px solid lightgrey;
+    /* display: flex; */
+        /*padding: 4px 0px 0px 12px;*/
+            padding: 5px 0px 5px 12px;
+}
+
+
+.amount .fifth{
+	width: 312px;
+    height: 36px;
+    border: 2px solid lightgrey;
+    /* display: flex; */
+        margin-top: 23px;
+            /*padding: 4px 0px 0px 12px;*/
+                padding: 5px 0px 5px 12px;
+}
+.amount .sixth{
+    font-family: 'Bebas Neue';
+    width: 312px;
+        border-radius: 5px;
+    color: white;
+    word-spacing: -1px;
+    letter-spacing: 2px;
+    height: 36px;
+    /* display: flex; */
+    border: none;
+    margin-top: 23px;
+    text-align: center;
+    padding: 6px 0px 0px 0px;
+    background: #992822;
+}
+.last-footer{
+	background-image: url(images/lastsectionimage.png);
+	background-size: cover;
+	background-position: center; 
+}
+.left-footer img{
+	width: 40%;
+    margin-top: 56px;
+    margin-left: 24px;
+}
+
+    
+.left-footer p{
+        margin-top: 42px;
+    margin-left: 24px;
+    color: white;
+    font-size: 15px;
+    font-family: Montserrat-Regular;
+}
+
+.left-footer h6{
+            margin-top: 18%;
+    margin-left: 24px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Bebas Neue';
+}
+
+
+.for-css li a{
+	    color: #3D2514;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 20px;
+    font-weight: 800;
+    font-family: 'Bebas Neue';
+}
+
+
+.for-bg-img{
+	background-image: url(images/background-2.png);
+    height: 750px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.right-footer .him{
+	color: white;
+	margin-top: 50%;
+	font-family: Bebus Neue;
+}
+.right-footer .his{
+	color: white;
+	margin-top: 3%;
+	font-family: Bebus Neue;
+}
+.right-footer i{
+	color: white;
+	padding: 1px;
+
+}
+.right-footer .pe-1{
+	font-family: Bebus Neue;
+	padding-left: 16px;
+    font-size: 14px;
+        margin-top: 41%;
+        color: white;
+}
+.right-footer .ico i{
+	    text-align: center !important;
+    padding-left: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    background: white;
+    /* text-align: center; */
+    width: 36px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+            margin-top: 40%;
+    margin-bottom: 42px;
+}
+
+.right-footer i:hover{
+    color:#FFC329;
+}
+.right-footer .ico{
+        text-align: end;
+}
+
+@media only screen and (max-width: 600px){
+    .Burger h1 {
+        margin-left: initial;
+    }
+
+    .Burger h2 {
+        margin-left: initial;
+    }
+
+    .Burger p {
+        margin-left: initial;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .for-better{
+        margin-top: 20px;
+
+    }
+    .second-text{
+        top:25px !important;
+    }
+    .right-footer .ico{
+                text-align: -webkit-center !important;
+        margin-top: 29px;
+        margin-right: 0px;
+    }
+
+    .right-footer .ico i{
+        text-align: start;
+        margin-top: 0%;
+    }
+
+    .right-footer .pe-1{
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    .for-css li a{
+        text-align: left;
+        margin-left: 2px;
+            font-weight: 800;
+    }
+
+    .left-footer span{
+        text-align: center;
+    }
+
+    .left-footer h6{
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .left-footer p {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .left-footer img{
+        width: 40%;
+        margin-top: 56px;
+        margin-left: 24px;
+        display: flex;
+        margin-left: 25%;
+        margin: 0 auto;
+        padding-top: 58px;
+    }
+}
+
+
+
+@media screen and (max-width: 360px){
+	
+
+    .amount .forth{
+        margin-top: 22px;
+    }
+
+    .upcoming-events p{
+        text-align: justify;
+    }
+
+    .upcoming-events h1{
+        text-align: center;
+    }
+
+    .upcoming-events h6{
+        text-align: center;
+    }
+
+    .tasty h4{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .for-more{
+        margin-top: 20px;
+    }
+
+    .Burger h2{
+        text-align: center;
+
+    }
+
+    .Burger p{
+        text-align: center;
+    }
+
+    .left-banner img{
+        margin-left: 23px;
+    }
+
+    .Burger h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+      .navbar-light .navbar-nav .nav-link{
+        margin-left: 11px;
+
+ }
+    .Burger p{
+        font-size: 13px;
+    }
+    .text h2{
+        font-size: 16px;
+    }
+    .text h3{
+        font-size: 16px;
+    }
+    .second-text h2{
+        font-size: 16px;
+        top: 0;
+    }
+    .second-text h3{
+        font-size: 16px;
+    }
+    .third-text h2{
+        font-size: 16px;
+    }
+    .third-text h3{
+        font-size: 16px;
+    }
+    .for-more{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .Burger h1{
+            font-size: 113px !important;
+    }
+}
+.for-position{
+    position: relative;
+    
+}
+.text{
+    position: absolute;
+    top: 10px;
+}
+.text h2{
+        color: white;
+        padding: 8px 0px 3px 20px;
+            font-family: 'Bebas Neue';
+}
+.text h3{
+     color: white;
+    padding: 0px 20px;
+        font-family: 'Bebas Neue';
+}
+.for-position{
+    position: relative;
+    
+}
+.second-text{
+    position: absolute;
+    top: 10px;
+}
+.second-text h2{
+        color: white;
+        padding: 8px 0px 3px 20px;
+            font-family: 'Bebas Neue';
+}
+.second-text h3{
+     color: white;
+    padding: 0px 20px;
+        font-family: 'Bebas Neue';
+}
+.third-text{
+    position: absolute;
+    top: 30px;
+}
+.third-text h2{
+        color: white;
+        padding: 21px 0px 3px 20px;
+            font-family: 'Bebas Neue';
+}
+.third-text h3{
+     color: white;
+    padding: 0px 20px;
+        font-family: 'Bebas Neue';
+}
+
+.carousel-indicators [data-bs-target]{
+    background: #FFC135;
+    border-radius: 50%;
+    height: 0px;
+    width: 20px;
+    /*opacity: 1;*/
+}
+.for-cent{
+    margin: 0 auto;
+}
+.for-cent input{
+   margin-right: 20px;
+}
+
+.carousel-indicators {
+    justify-content: left;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-indicators [data-bs-target] {
+    background: #FFC135;
+    border-radius: 50%;
+    height: 0px;
+    width: 20px;
+    /* opacity: 1; */
+}
